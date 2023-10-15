@@ -1,0 +1,1 @@
+# SAMOKAT_WEB_TEST
