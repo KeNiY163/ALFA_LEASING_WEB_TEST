@@ -52,10 +52,9 @@ public class WebProvider implements Supplier<WebDriver> {
 
         Configuration.holdBrowserOpen = true;
 
-        Configuration.remote = config.isRemote().toString();
-
         if (config.isRemote()) {
             Configuration.remote = config.getRemoteUrl();
+
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                     "enableVNC", true,
