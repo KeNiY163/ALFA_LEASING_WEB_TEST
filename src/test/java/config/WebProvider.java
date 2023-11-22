@@ -53,7 +53,7 @@ public class WebProvider implements Supplier<WebDriver> {
         Configuration.holdBrowserOpen = true;
 
         if (config.isRemote()) {
-            Configuration.remote = config.getRemoteUrl();
+            Configuration.remote = config.getRemoteURL();
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("selenoid:options", Map.<String, Object>of(
