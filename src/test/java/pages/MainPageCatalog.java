@@ -69,14 +69,13 @@ public class MainPageCatalog {
             clearButtonOnFilters = $$("div[title='Очистить'] svg");
 
 
-    WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
     TestData data = new TestData();
 
 
     @Step("Открытие главной страницы каталога")
     public MainPageCatalog openMainPage() {
 
-        open(config.getBaseURL());
+        open("/");
 
         return this;
 

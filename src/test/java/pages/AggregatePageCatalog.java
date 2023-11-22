@@ -22,7 +22,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class AggregatePageCatalog {
 
-    WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
     TestData data = new TestData();
 
 
