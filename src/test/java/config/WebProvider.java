@@ -50,6 +50,10 @@ public class WebProvider implements Supplier<WebDriver> {
         Configuration.browserSize = config.getBrowserSize();
         Configuration.pageLoadStrategy = "eager";
 
+        Configuration.holdBrowserOpen = true;
+
+        Configuration.remote = System.getProperty("remoteDriver");
+
         if (config.isRemote()) {
             Configuration.remote = config.getRemoteUrl();
             DesiredCapabilities capabilities = new DesiredCapabilities();
