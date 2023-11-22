@@ -20,8 +20,6 @@ public class WebProvider {
         Configuration.browserSize = config.getBrowserSize();
         Configuration.pageLoadStrategy = "eager";
 
-        Configuration.holdBrowserOpen = true;
-
         if (config.isRemote()) {
             Configuration.remote = config.getRemoteURL();
 
