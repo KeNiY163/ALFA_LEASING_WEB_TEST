@@ -18,7 +18,7 @@ public interface WebDriverConfig extends Config {
     Browser getBrowserName();
 
     @Key("browserVersion")
-    @DefaultValue("117.0")
+    @DefaultValue("100.0")
     String getBrowserVersion();
 
     @Key("browserSize")
@@ -26,7 +26,6 @@ public interface WebDriverConfig extends Config {
     String getBrowserSize();
 
     @Key("remoteURL")
-    @DefaultValue("false")
     String getRemoteURL();
 
     @Key("isRemote")
