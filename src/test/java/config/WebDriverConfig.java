@@ -26,7 +26,7 @@ public interface WebDriverConfig extends Config {
     String getBrowserSize();
 
     @Key("remoteURL")
-    @DefaultValue("http://locahost:4444")
+    @DefaultValue("false")
     String getRemoteURL();
 
     @Key("isRemote")
