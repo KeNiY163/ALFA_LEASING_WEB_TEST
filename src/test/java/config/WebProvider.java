@@ -52,7 +52,7 @@ public class WebProvider implements Supplier<WebDriver> {
 
         Configuration.holdBrowserOpen = true;
 
-        Configuration.remote = System.getProperty("remoteDriver");
+        Configuration.remote = config.isRemote().toString();
 
         if (config.isRemote()) {
             Configuration.remote = config.getRemoteUrl();
