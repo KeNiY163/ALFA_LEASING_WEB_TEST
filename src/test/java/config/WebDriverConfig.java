@@ -11,7 +11,7 @@ public interface WebDriverConfig extends Config {
 
     @Key("baseUrl")
     @DefaultValue("https://alfaleasing.ru/catalog/")
-    String getBaseUrl();
+    String getBaseURL();
 
     @Key("browserName")
     @DefaultValue("CHROME")

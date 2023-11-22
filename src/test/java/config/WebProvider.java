@@ -14,7 +14,7 @@ public class WebProvider {
     }
 
     public void webConfiguration() {
-        Configuration.baseUrl = config.getBaseUrl();
+        Configuration.baseUrl = config.getBaseURL();
         Configuration.browser = config.getBrowserName().toString();
         Configuration.browserVersion = config.getBrowserVersion();
         Configuration.browserSize = config.getBrowserSize();
