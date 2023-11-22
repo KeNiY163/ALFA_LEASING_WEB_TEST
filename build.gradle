@@ -68,54 +68,30 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$jupiterEngineVersion")
 }
 
-test
-        {
-            useJUnitPlatform()
-        }
-
 tasks.withType(Test) {
+    useJUnitPlatform()
     systemProperties(System.getProperties())
 }
-
-tasks.register('smoke', Test) {
-
-    testLogging {
-        events "passed", "skipped", "failed", "standardOut", "standardError"
-        exceptionFormat "full"
-    }
+test {
+    useJUnitPlatform()
+}
+task smoke(type: Test) {
     useJUnitPlatform {
         includeTags("SMOKE")
     }
 }
 
-tasks.register('mainpage', Test) {
-
-    testLogging {
-        events "passed", "skipped", "failed", "standardOut", "standardError"
-        exceptionFormat "full"
-    }
+task mainpage(type: Test) {
     useJUnitPlatform {
         includeTags("MAINPAGE")
     }
 }
-
-tasks.register('aggregatepage', Test) {
-
-    testLogging {
-        events "passed", "skipped", "failed", "standardOut", "standardError"
-        exceptionFormat "full"
-    }
+task aggregatepage(type: Test) {
     useJUnitPlatform {
         includeTags("AGGREGATEPAGE")
     }
 }
-
-tasks.register('elementstest', Test) {
-
-    testLogging {
-        events "passed", "skipped", "failed", "standardOut", "standardError"
-        exceptionFormat "full"
-    }
+task elementstest(type: Test) {
     useJUnitPlatform {
         includeTags("ELEMENTSTEST")
     }
