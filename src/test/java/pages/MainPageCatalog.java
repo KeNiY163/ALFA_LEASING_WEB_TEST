@@ -76,7 +76,7 @@ public class MainPageCatalog {
     @Step("Открытие главной страницы каталога")
     public MainPageCatalog openMainPage() {
 
-        open(config.getBaseUrl());
+        open(config.getBaseURL());
 
         return this;
 

@@ -86,7 +86,7 @@ public class AggregatePageCatalog {
     @Step("Открытие страницы поисковой выдачи")
     public AggregatePageCatalog openPageSearch() {
 
-        open(config.getBaseUrl() + "/search");
+        open(config.getBaseURL() + "/search");
 
         return this;
 
