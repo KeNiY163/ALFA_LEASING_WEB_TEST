@@ -7,8 +7,7 @@ import utils.BaseTest;
 import utils.TestData;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
+import static com.codeborne.selenide.Selenide.*;
 
 public class HeaderAndFooter extends BaseTest {
 
@@ -74,6 +73,8 @@ public class HeaderAndFooter extends BaseTest {
         header_call_button.shouldBe(visible);
         header_call_button_number.shouldBe(visible);
 
+        header_links_arrow.click();
+        header_links_arrow.click();
         header_links_arrow.click();
 
         header_top_block_list.get(2).shouldBe(visible);
