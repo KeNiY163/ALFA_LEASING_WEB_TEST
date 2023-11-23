@@ -60,9 +60,9 @@
    - :heavy_check_mark:_Проверка карточек офферов на наличие данных из выбранных фильтров_
 
 ---
-### <img src="media/logos/Jenkins.svg" width="50" height="50"/> Сборка в [Jenkins]()
+### <img src="media/logos/Jenkins.svg" width="50" height="50"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/qa-quru-diplom-alfaleasing/)
 <p align="center">
-<img src="psv/screenshots/JenkinsScreenshot.png" alt="Jenkins Build" width="1000" height="300">
+<img src="media/screenshots/Jenkins.png" alt="Jenkins Build" width="1000" height="300">
 </p>
 
 ____
@@ -80,7 +80,7 @@ ____
 ### Запуск параметризованных автотестов в **Jenkins**
 
 <p align="center">
-<img src="psv/screenshots/JenkinsScreenshot2.png" alt="Jenkins Launch" width="1000" height="400">
+<img src="media/screenshots/BuildJenkins.png" alt="Jenkins Launch" width="1000" height="400">
 </p>
 
 ## :rocket: Команда для запуска
@@ -88,26 +88,27 @@ ____
 ```bash
 clean
 ${TASK}
+-Denv=${ENVIRONMENT}
+-DbaseURL=${BASE_URL}
 -Dbrowser=${BROWSER}
--DbrowserSize=${BROWSER_SIZE}
 -DbrowserVersion=${BROWSER_VERSION}
--DbaseUrl=${BASE_URL}
--DremoteUrl=${REMOTE_URL}
+-DbrowserSize=${BROWSER_SIZE}
+-DremoteDriverUrl=https://user1:1234@${REMOTE_DRIVER_URL}/wd/hub/
 ```
 
 ---
-## <img src="media/logos/Allure_Report.svg" width="50" height="50"/> [Allure]() отчет
+## <img src="media/logos/Allure_Report.svg" width="50" height="50"/> [Allure](https://jenkins.autotests.cloud/job/qa-quru-diplom-alfaleasing/38/allure/) отчет
 
 ### Главная страница отчета
 
 <p align="center">
-<img src="psv/screenshots/Screenshot2.png" alt="Allure report" width="1000" height="350">
+<img src="media/screenshots/AllureMain.png" alt="Allure report" width="1000" height="350">
 </p>
 
 ### Тест-кейсы
 
 <p align="center">
-<img src="psv/screenshots/Screenshot1.png" alt="Test Case" width="1000" height="350">
+<img src="media/screenshots/AllureTestCase.png" alt="Test Case" width="1000" height="350">
 </p>
 
 ### Содержание тест-кейсов
@@ -125,7 +126,7 @@ ${TASK}
 ### Графики
 
 <p align="center">
-<img src="psv/screenshots/Screenshot3.png" alt="Allure-graph" width="1000" height="400">
+<img src="media/screenshots/AllureGraphs.png" alt="Allure-graph" width="1000" height="400">
 </p>
 
 ---
@@ -169,7 +170,7 @@ ${TASK}
 ### Уведомление из переписки с чат ботом
 
 <p align="center">
-<img src="psv/screenshots/Screenshot8.png" alt="TestOps launch" width="500" height="400">
+<img src="media/screenshots/TelegramReport.png" alt="TestOps launch" width="500" height="400">
 </p>
 
 
@@ -187,7 +188,7 @@ ${TASK}
 ## <img src="media/logos/Selenoid.svg" height="50"/> Видео запуска тестов в Selenoid
 
 <p align="center">
-<img src="psv/videos/video.gif" alt="TestOps launch" width="800" height="400">
+<img src="media/screenshots/TestGif.gif" alt="TestOps launch" width="800" height="400">
 </p>
 
 ---
