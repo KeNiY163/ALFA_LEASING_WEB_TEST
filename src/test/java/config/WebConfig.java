@@ -7,10 +7,10 @@ import org.aeonbits.owner.Config;
         "classpath:${env}.properties"
 })
 
-public interface WebDriverConfig extends Config {
+public interface WebConfig extends Config {
 
     @Key("baseUrl")
-    @DefaultValue("https://alfaleasing.ru/catalog/")
+    @DefaultValue("https://alfaleasing.ru/catalog")
     String getBaseURL();
 
     @Key("browserName")
@@ -18,7 +18,7 @@ public interface WebDriverConfig extends Config {
     Browser getBrowserName();
 
     @Key("browserVersion")
-    @DefaultValue("116.0")
+    @DefaultValue("100.0")
     String getBrowserVersion();
 
     @Key("browserSize")

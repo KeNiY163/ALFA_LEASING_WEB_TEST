@@ -2,8 +2,8 @@ package utils;
 
 
 import com.codeborne.selenide.logevents.SelenideLogger;
-import config.WebDriverConfig;
-import config.WebProvider;
+import config.WebConfig;
+import config.WebConfigProject;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;
@@ -15,12 +15,12 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class BaseTest {
 
-    protected static final WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
+    protected static final WebConfig config = ConfigFactory.create(WebConfig.class, System.getProperties());
 
     @BeforeAll
     static void beforeAll() {
-        WebProvider webProvider = new WebProvider(config);
-        webProvider.webConfiguration();
+        WebConfigProject webConfigProject = new WebConfigProject(config);
+        webConfigProject.webConfig();
     }
 
     @BeforeEach
@@ -34,6 +34,7 @@ public class BaseTest {
         Attach.pageSource();
         Attach.browserConsoleLogs();
         Attach.addVideo();
+
         closeWebDriver();
 
     }
