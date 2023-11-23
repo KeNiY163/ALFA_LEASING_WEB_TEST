@@ -182,6 +182,8 @@ public class MainPageCatalog extends BaseTest {
 
         for (int i = 0; i < brand_logo_temp; i++) {
 
+            sleep(1500);
+
             String logo_href_temp = getLogoHref(i);
             String logo_name_temp = getLogoName(i);
 
