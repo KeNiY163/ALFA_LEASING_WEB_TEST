@@ -8,6 +8,7 @@ import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
+import utils.BaseTest;
 import utils.TestData;
 
 import java.util.ArrayList;
@@ -17,7 +18,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.WebDriverRunner.url;
 
-public class MainPageCatalog {
+public class MainPageCatalog extends BaseTest {
 
     private final SelenideElement
 

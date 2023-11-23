@@ -8,6 +8,7 @@ import com.github.javafaker.Faker;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import utils.BaseTest;
 import utils.TestData;
 
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
-public class AggregatePageCatalog {
+public class AggregatePageCatalog extends BaseTest {
 
     TestData data = new TestData();
 

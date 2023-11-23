@@ -3,13 +3,14 @@ package pages.components;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
+import utils.BaseTest;
 import utils.TestData;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
-public class HeaderAndFooter {
+public class HeaderAndFooter extends BaseTest {
 
     TestData data = new TestData();
 
