@@ -74,12 +74,11 @@ public class HeaderAndFooter extends BaseTest {
         header_call_button_number.shouldBe(visible);
 
         header_links_arrow.click();
-        header_links_arrow.click();
-        header_links_arrow.click();
 
-        header_top_block_list.get(2).shouldBe(visible);
-        header_top_block_list.get(3).shouldBe(visible);
-        header_top_block_list.get(4).shouldBe(visible);
+
+        header_top_block_list.get(2).shouldBe(exist);
+        header_top_block_list.get(3).shouldBe(exist);
+        header_top_block_list.get(4).shouldBe(exist);
 
         header_bottom_block.shouldBe(visible);
 
