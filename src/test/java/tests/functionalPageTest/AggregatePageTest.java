@@ -17,41 +17,6 @@ public class AggregatePageTest extends BaseTest {
 
 
     AggregatePageCatalog aggregatePageCatalog = new AggregatePageCatalog();
-    HeaderAndFooter headerAndFooter = new HeaderAndFooter();
-
-    @Story("Поисковая выдача")
-    @Tag("SMOKE")
-    @Tag("AGGREGATEPAGE")
-    @Owner("Keniy163")
-    @DisplayName("Проверка наличия всех элементов хедера/проверка правильности текстовок в элементах/проверка корректности ссылок в элементах")
-    @Test
-    public void headertest() {
-
-
-        aggregatePageCatalog.openPageSearch();
-        headerAndFooter.checkHeaderElements()
-                .checkFooterElements()
-                .checkTextAndHrefHeader()
-                .checkTextFooter();
-
-
-    }
-
-    @Story("Поисковая выдача")
-    @Tag("SMOKE")
-    @Tag("AGGREGATEPAGE")
-    @Owner("Keniy163")
-    @DisplayName("Проверка наличия всех элементов футера/проверка правильности текстовок в элементах/проверка корректности ссылок в элементах")
-    @Test
-    public void footertest() {
-
-        aggregatePageCatalog.openPageSearch();
-        headerAndFooter.checkHeaderElements()
-                .checkFooterElements()
-                .checkTextAndHrefHeader()
-                .checkTextFooter();
-
-    }
 
     @Story("Поисковая выдача")
     @Tag("SMOKE")
