@@ -129,7 +129,7 @@ ${TASK}
 </p>
 
 ---
-## <img src="psv/pictures/Allure_TO.svg" width="50" height="50"/> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3696/dashboards)
+## <img src="media/logos/Allure_TO.svg" width="50" height="50"/> Интеграция с [Allure TestOps]()
 
 ### Dashboards
 <p align="center">
@@ -147,7 +147,7 @@ ${TASK}
 </p>
 
 ---
-## <img src="psv/pictures/Jira.svg" width="50" height="50"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-903)
+## <img src="media/logos/Jira.svg" width="50" height="50"/> Интеграция с [Jira]()
 
 ### Задача в Jira
 
@@ -164,7 +164,7 @@ ${TASK}
 
 ---
 
-## <img src="psv/pictures/Telegram.svg" width="50" height="50"/> Уведомления в Telegram чат с ботом
+## <img src="media/logos/Telegram.svg" width="50" height="50"/> Уведомления в Telegram чат с ботом
 
 ### Уведомление из переписки с чат ботом
 
@@ -184,7 +184,7 @@ ${TASK}
 
 ---
 
-## <img src="psv/pictures/Selenoid.svg" height="50"/> Видео запуска тестов в Selenoid
+## <img src="media/logos/Selenoid.svg" height="50"/> Видео запуска тестов в Selenoid
 
 <p align="center">
 <img src="psv/videos/video.gif" alt="TestOps launch" width="800" height="400">
