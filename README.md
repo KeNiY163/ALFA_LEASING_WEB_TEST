@@ -3,7 +3,7 @@
 ### **Проект по автоматизации для каталога сайта alfaleasing.ru**
 
 <p align="center">
-<img src="media/logos/alfaLogo.png" alt="ALFA_LEASING" width="1000" height="300">
+<img src="media/logos/alfaLogo.png" alt="ALFA_LEASING" width="800" height="300">
 </p>
 <p>ГК «Альфа-Лизинг» — крупнейшая в России негосударственная лизинговая компания, входит в топ-5 отечественных лизинговых компаний по размеру портфеля.<br><br> Каждый день в течение 25 лет компания создаем лизинговые продукты, чтобы каждый предприниматель мог получить автомобиль в любой точке РФ, быстро оформить любой транспорт для бизнеса и зарабатывать с первого дня лизингового договора</p>
 
@@ -41,7 +41,7 @@
 ---
 ## :clipboard: Тестовые сценарии
 
-1. [Главная страница]()
+1. [Главная страница](https://alfaleasing.ru/catalog/)
    - :heavy_check_mark:_Проверка HEADER и FOOTER (элементы и ссылки)_
    - :heavy_check_mark:_Проверка элементов на главной странице_
    - :heavy_check_mark:_Проверка блока фильтров(заполненые и пустые)_
@@ -50,7 +50,7 @@
    - :heavy_check_mark:_Проверка блока перелинковки по городам_
    - :heavy_check_mark:_Проверка маркетингового баннера (API проверка появления нужного баннера)_
    - :heavy_check_mark:_Проверка переходов на страницу поисковой выдачи из всех блоков, указанных выше_
-2. [Страница поисковой выдачи]()
+2. [Страница поисковой выдачи](https://alfaleasing.ru/catalog/search/)
    - :heavy_check_mark:_Проверка HEADER и FOOTER (элементы и ссылки)_
    - :heavy_check_mark:_Проверка элементов на странице поисковой выдачи_
    - :heavy_check_mark:_Проверки блока фильтров: комбинации всех фильтров_
@@ -129,7 +129,7 @@ ${TASK}
 </p>
 
 ---
-## <img src="psv/pictures/Allure_TO.svg" width="50" height="50"/> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3696/dashboards)
+## <img src="media/logos/Allure_TO.svg" width="50" height="50"/> Интеграция с [Allure TestOps]()
 
 ### Dashboards
 <p align="center">
@@ -147,7 +147,7 @@ ${TASK}
 </p>
 
 ---
-## <img src="psv/pictures/Jira.svg" width="50" height="50"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-903)
+## <img src="media/logos/Jira.svg" width="50" height="50"/> Интеграция с [Jira]()
 
 ### Задача в Jira
 
@@ -164,7 +164,7 @@ ${TASK}
 
 ---
 
-## <img src="psv/pictures/Telegram.svg" width="50" height="50"/> Уведомления в Telegram чат с ботом
+## <img src="media/logos/Telegram.svg" width="50" height="50"/> Уведомления в Telegram чат с ботом
 
 ### Уведомление из переписки с чат ботом
 
@@ -184,7 +184,7 @@ ${TASK}
 
 ---
 
-## <img src="psv/pictures/Selenoid.svg" height="50"/> Видео запуска тестов в Selenoid
+## <img src="media/logos/Selenoid.svg" height="50"/> Видео запуска тестов в Selenoid
 
 <p align="center">
 <img src="psv/videos/video.gif" alt="TestOps launch" width="800" height="400">
