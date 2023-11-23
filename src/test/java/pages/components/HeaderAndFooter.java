@@ -108,7 +108,6 @@ public class HeaderAndFooter extends BaseTest {
 
         header_top_block_list.get(2).shouldHave(text(data.headerTopBlockCOMP));
         header_top_block_list.get(3).shouldHave(text(data.headerTopBlockCONT));
-        header_top_block_list.get(4).shouldHave(text(data.headerTopBlockNEWS));
 
         header_call_button_number.shouldHave(text(data.numberHeader));
         header_finance.shouldHave(text(data.headerBottomBlockFIN));

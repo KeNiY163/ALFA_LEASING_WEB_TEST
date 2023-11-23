@@ -214,6 +214,8 @@ public class MainPageCatalog extends BaseTest {
 
         for (int i = 0; i < 5; i++) {
 
+            sleep(1500);
+
             String brandList_href_temp = getBrandListHref(i);
             String brandList_name_temp = getBrandListName(i);
 
@@ -245,6 +247,8 @@ public class MainPageCatalog extends BaseTest {
         //вручную ограничено, чтобы не затягивать тест (без ограничения бегает всему массиву)
 
         for (int i = 0; i < 5; i++) {
+
+            sleep(1500);
 
             String cityList_href_temp = getCityHref(i);
             String cityList_name_temp = getCityListName(i);
