@@ -130,30 +130,30 @@ ${TASK}
 </p>
 
 ---
-## <img src="media/logos/Allure_TO.svg" width="50" height="50"/> Интеграция с [Allure TestOps]()
+## <img src="media/logos/Allure_TO.svg" width="50" height="50"/> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3847/dashboards)
 
 ### Dashboards
 <p align="center">
-<img src="psv/screenshots/Screenshot5.png" alt="TestOps dashboard" width="1000" height="400">
+<img src="media/screenshots/AllureTestOpsDash.png" alt="TestOps dashboard" width="1000" height="400">
 </p>
 
 ### Ручные и автоматизированные тест-кейсы
 <p align="center">
-<img src="psv/screenshots/Screenshot4.png" alt="TestOps dashboard" width="1000" height="400">
+<img src="media/screenshots/AllureTestOpsTestCase.png" alt="TestOps dashboard" width="1000" height="400">
 </p>
 
 ### Запуск автоматизированных тестов в **TestOps**
 <p align="center">
-<img src="psv/screenshots/Screenshot6.png" alt="TestOps launch" width="1000" height="400">
+<img src="media/screenshots/AllureTestOpsLaunch.png" alt="TestOps launch" width="1000" height="400">
 </p>
 
 ---
-## <img src="media/logos/Jira.svg" width="50" height="50"/> Интеграция с [Jira]()
+## <img src="media/logos/Jira.svg" width="50" height="50"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-980)
 
 ### Задача в Jira
 
 <p align="center">
-<img src="psv/screenshots/Screenshot7.png" alt="TestOps launch" width="1000" height="400">
+<img src="media/screenshots/JiraIntergration.png" alt="TestOps launch" width="1000" height="400">
 </p>
 
 #### Содержание задачи
